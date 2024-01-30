@@ -36,22 +36,6 @@
    </repository>
 </distributionManagement>
 
-
-  <servers>
-    <server>
-      <id>private-repo</id>
-	   <configuration>
-        <httpHeaders>
-          <property>
-            <name>TusharBasu</name>
-            <!-- Base64-encoded username:access_token -->
-            <value>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</value>
-          </property>
-        </httpHeaders>
-      </configuration>
-    </server>
-</server>
- 
  
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
