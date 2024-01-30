@@ -26,6 +26,17 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  
+  <repositories>
+    <repository>
+      <id>TusharBasu</id>
+      <name>maven project</name>
+      <url>https://github.com/TusharBasu/mavenproject.git</url>
+    </repository>
+    
+  </repositories>
+
  
  
   <build>
