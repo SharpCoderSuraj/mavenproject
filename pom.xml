@@ -26,23 +26,8 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <servers>
-    <server>
-      <id>github</id>
-      <username>TusharBasu</username>
-      <password>17thSept@1999</password>
-    </server>
-  </servers>
-</settings>
-
-  <distributionManagement>
-   <repository>
-     <id>github</id>
-     <name>GitHub TusharBasu Apache Maven Packages</name>
-     <url>https://maven.pkg.github.com/TusharBasu/mavenproject.git</url>
-   </repository>
-</distributionManagement>
-
+ 
+ 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
