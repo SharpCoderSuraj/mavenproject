@@ -86,7 +86,7 @@ jobs:
     - name: Build with Maven
       run: mvn install
 
- insatll:
+ intall:
     runs-on: ubuntu-latest
     
     steps:
@@ -116,7 +116,7 @@ jobs:
         java-version: '11'
 
     - name: Deploy to Production
-      run: mvn install
+      run: mvn deploy
 
   
 
