@@ -4,7 +4,7 @@
 	   <configuration>
         <httpHeaders>
           <property>
-            <name>Authorization</name>
+            <name>TusharBasu</name>
             <!-- Base64-encoded username:access_token -->
             <value>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</value>
           </property>
