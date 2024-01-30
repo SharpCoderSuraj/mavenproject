@@ -116,7 +116,7 @@ jobs:
         java-version: '11'
 
     - name: Deploy to Production
-      run: mvn deploy
+      run: mvn install
 
   
 
