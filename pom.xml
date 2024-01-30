@@ -28,14 +28,13 @@
   </dependencies>
 
   
-  <repositories>
-    <repository>
-      <id>TusharBasu</id>
-      <name>maven project</name>
-      <url>https://github.com/TusharBasu/mavenproject.git</url>
-    </repository>
-    
-  </repositories>
+<distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>GitHub OWNER Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/TusharBasu/mavenproject</url>
+   </repository>
+</distributionManagement>
 
  
  
