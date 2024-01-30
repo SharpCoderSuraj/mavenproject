@@ -1,0 +1,29 @@
+<servers>
+    <server>
+      <id>private-repo</id>
+	   <configuration>
+        <httpHeaders>
+          <property>
+            <name>Authorization</name>
+            <!-- Base64-encoded username:access_token -->
+            <value>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</value>
+          </property>
+        </httpHeaders>
+      </configuration>
+    </server>
+</server>
+
+<repositories>
+      <repository>
+                    <id>TusharBasu</id>
+                    `<name>mavenproject</name>
+                    <url>https://github.com/TusharBasu/mavenproject.git</url>
+                    <releases>
+                        <enabled>true</enabled>
+                        <updatePolicy>never</updatePolicy>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+       </repository>
+</repositories>
